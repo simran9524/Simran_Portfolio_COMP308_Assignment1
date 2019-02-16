@@ -1,5 +1,18 @@
+/*
+    File name: app.css
+    name: Simran
+    Student id: 300991457
+    date: 16 feb, 2019
+*/
+
+/* importing external fonts */
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
+/* 
+********************************************
+index page's css common all pages  
+********************************************
+*/
 body {
   font: 14px 'PT Sans Narrow', sans-serif;
 }
@@ -22,55 +35,10 @@ body {
   padding-right:0px;
 }
 
-/* home ejs file */
-.hero-section{
-  background-image: url(../Assets/images/home.jpg);
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  position: relative;
-  height:390px;
-  width:100%;
-}
-
-.other-hero-section{
-  height:200px !important;
-}
-.hero-section-overlay{
-  background: rgba(0,0,0,0.7) none repeat scroll 0 0;
-  width:100%;
-  height:100%;
-}
-
-.hero-heading{
-  color: #fff;
-  width:50%;
-  margin:auto;
-  padding:95px 15px;
-  text-align:center; 
-}
-.hero-heading-about{
-  padding: 25px 15px;
-}
-.hero-heading-other{
-  padding: 60px 5px;
-}
-.hero-text{
-  margin-bottom:35px;
-}
-.hero-heading h1{
-  letter-spacing:2px;
-  font-size:59px;
-  font-weight: bold;
-}
 .show-color{
   color: #ba68c8;
 }
 
-.hero-heading p{
-  letter-spacing: 2px;
-  font-size:19px;
-  font-weight:bold;  
-}
 .a-btn{
   display: block;
   margin:auto;
@@ -92,6 +60,53 @@ body {
   background: #fff;
   color:#ba68c8;
 }
+
+/* 
+********************************************
+home page's css 
+********************************************
+*/
+.hero-section{
+  background-image: url(../Assets/images/home.jpg);
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  position: relative;
+  height:390px;
+  width:100%;
+}
+
+.hero-section-overlay{
+  background: rgba(0,0,0,0.7) none repeat scroll 0 0;
+  width:100%;
+  height:100%;
+}
+
+.hero-heading{
+  color: #fff;
+  width:50%;
+  margin:auto;
+  padding:95px 15px;
+  text-align:center; 
+}
+.hero-heading-about{
+  padding: 25px 15px;
+}
+
+.hero-text{
+  margin-bottom:35px;
+}
+.hero-heading h1{
+  letter-spacing:2px;
+  font-size:59px;
+  font-weight: bold;
+}
+
+.hero-heading p{
+  letter-spacing: 2px;
+  font-size:19px;
+  font-weight:bold;  
+}
+
 .mission-statement{
   padding:39px 0px;
 }
@@ -109,6 +124,12 @@ body {
   letter-spacing: 1px;
   text-align: center;
 }
+
+/* 
+********************************************
+about page's css 
+********************************************
+*/
 .about-image{
   margin:15px auto;
 }
@@ -119,6 +140,11 @@ body {
   border-radius: 50%;
 }
 
+/* 
+********************************************
+projects page's css 
+********************************************
+*/
 .project-lists .row{
   margin: 25px auto;
 }
@@ -128,9 +154,31 @@ body {
 .project-lists h3{
   color:#ba68c8;
 }
+
+/* 
+********************************************
+services page's css 
+********************************************
+*/
 .services-lists .row{
   margin:19px auto;
 }
+.services-lists .card a{
+  color:#fff;
+}
+.services-lists .card{
+  border: 1px solid #ba68c8;
+}
+.services-lists .card h5{
+  font-weight:bold;
+  color: #ba68c8;
+}
+
+/* 
+********************************************
+contact page's css 
+********************************************
+*/
 .contact .row{
   margin:15px auto;
 }
@@ -141,4 +189,16 @@ body {
   color:#fff;
   text-decoration: none;
   text-decoration-line: none;
+}
+
+/* 
+********************************************
+other css 
+********************************************
+*/
+.other-hero-section{
+  height:200px !important;
+}
+.hero-heading-other{
+  padding: 60px 5px;
 }

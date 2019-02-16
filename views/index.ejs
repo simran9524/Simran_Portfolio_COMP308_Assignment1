@@ -1,26 +1,38 @@
-<% include ./partials/header.ejs %>
-
+<!-- 
+  file: index.ejs
+  name: Simran
+  student id: 300991457
+  date: 16 feb, 2019
+ -->
+<% include ./partials/header.ejs %> <!-- loads header.ejs -->
   <!-- Content goes here --> 
+      
+      <!-- if title equals home then, loads home.ejs file-->
       <% if(title == "Home") { %>
         <% include ./partials/home.ejs %>
       <% } %>
 
+      <!-- if title equals about then, loads aboutme.ejs file-->
       <% if(title == "About Me") { %>
         <% include ./partials/aboutme.ejs %>
       <% } %>
 
+      <!-- if title equals services then, loads services.ejs file-->
       <% if(title == "Services") { %>
         <% include ./partials/services.ejs %>
       <% } %>
 
+      <!-- if title equals projects then, loads projects.ejs file-->
       <% if(title == "Projects") { %>
         <% include ./partials/projects.ejs %>
       <% } %>
 
+      <!-- if title equals contact then, loads contact.ejs file-->
       <% if(title == "Contact") { %>
         <% include ./partials/contact.ejs %>
       <% } %>
     </div>
   </div>
 
+<!-- loads footer.ejs -->
 <% include ./partials/footer.ejs %>
