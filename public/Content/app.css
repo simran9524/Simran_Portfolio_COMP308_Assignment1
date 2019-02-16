@@ -131,3 +131,14 @@ body {
 .services-lists .row{
   margin:19px auto;
 }
+.contact .row{
+  margin:15px auto;
+}
+.contact button a{
+  color:#fff;
+}
+.contact button a:hover{
+  color:#fff;
+  text-decoration: none;
+  text-decoration-line: none;
+}
